@@ -44,7 +44,7 @@ function App() {
   }, []);
   return (
     
-  <div className="scroll-container bg-zinc-900 ">
+  <div className="scroll-container bg-zinc-900 overflow-hidden">
   <Navbar/>
   
   <Routes> 

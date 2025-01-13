@@ -82,7 +82,7 @@ useEffect(()=>{
 </label>
 
 {/**SIDEBAR */}
-<div className={`sidebar fixed bg-[#232222]  top-0 right-0 h-[100vh] sm:w-[30vw] w-[100vw] transform translate-x-[130%]`}>
+<div className={`sidebar fixed bg-[#232222]  top-0 right-0 h-[100vh] sm:w-[30vw] w-[100vw] transform translate-x-[150%]`}>
 <svg className='svgCurve'>
         <path d={initialPath}></path>
     </svg>
