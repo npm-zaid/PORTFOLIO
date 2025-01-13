@@ -2,7 +2,6 @@ import React from 'react';
 import Spline from '@splinetool/react-spline';
 
 
-// 1. Create a context
 
 
 function Hero() {
