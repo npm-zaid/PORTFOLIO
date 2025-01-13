@@ -5,6 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Eyes = () => {
+
+  
   const eyeLeft = useRef(null);
   const eyeRight = useRef(null);
   const eyeLeftpuple = useRef(null);

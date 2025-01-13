@@ -1,6 +1,4 @@
 import React from 'react'
-import PhysicsCircles from '../Components/PhysicsCircles'
-import UniqueSection from '../Components/UniqueSection'
 import Projects from '../Components/Projects'
 import Projects2 from '../Components/Projects2'
 
