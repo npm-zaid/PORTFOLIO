@@ -31,7 +31,7 @@ function Hero() {
 <div className='absolute w-full  sm:h-screen h-[70vh]  bottom-0 '>
 
 
-            <Spline  scene="https://prod.spline.design/IYaVUMfTeAozRgsp/scene.splinecode" cache />
+         <Spline  scene="https://prod.spline.design/IYaVUMfTeAozRgsp/scene.splinecode" cache />
   
 <div className='h-12 w-40  bg-gradient-to-r sm:from-[#222225]  sm:via-[#1D1D21]  sm:to-[#19191C]  absolute bottom-5 right-0'></div>
 </div>

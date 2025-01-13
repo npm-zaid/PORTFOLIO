@@ -14,7 +14,7 @@ import Lenis from '@studio-freight/lenis';
 function App() {
 
   const lenisRef = useRef();
-  useEffect(() => {
+  useEffect(() => { 
     const lenis = new Lenis({
       duration: 1.2, // Adjust as needed
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Easing function
@@ -25,7 +25,7 @@ function App() {
       smoothTouch: true,
       touchMultiplier: 2,
       infinite: false,
-      lerp: 0.1,
+      lerp: 0.03,
       wheelMultiplier: 1,
     });
 
