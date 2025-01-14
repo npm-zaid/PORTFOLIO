@@ -9,9 +9,14 @@ import Contact from './Pages/Contact'
 import Work from './Pages/Work'
 import Footer from './Components/Footer';
 
+
 import Lenis from '@studio-freight/lenis';
 
+
+
 function App() {
+
+  
 
   const lenisRef = useRef();
   useEffect(() => { 
@@ -45,12 +50,12 @@ function App() {
   return (
     
   <div className="scroll-container bg-zinc-900 overflow-x-hidden">
+   
   <Navbar/>
-  
   <Routes> 
-    <Route exact path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/contact" element={<Contact />} />
+    <Route exact path="/" element={<Home/>}/>
+    <Route path="/about" element={<About/>} />
+    <Route path="/contact" element={<Contact/>} />
     <Route path="/work" element={<Work/>} />
   </Routes> 
   

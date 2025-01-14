@@ -14,12 +14,13 @@ const Socials = () => {
    
 
   return (
-    <div className="contact-container bg-[#111111] text-white p-8 md:p-16 lg:p-24 min-h-screen flex flex-col justify-center">
-      <div className="w-[80vw] mx-auto">
-         <h1 className='text-4xl lg:text-5xl font-bold mb-6 text-[#FFDC00] relative'>socials
+    <div className="  flex flex-col justify-center h-[75vh] sm:gap-8 gap-12">
+     
+         <h1 className='text-[8vw] lg:text-5xl font-bold text-[#FFDC00] relative'>socials
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
       </h1>
-      <div className='flex flex-wrap gap-8 h-[40vh] justify-center items-center'>
+
+      <div className='flex flex-wrap gap-8 h-[40vh]  justify-center items-center'>
   {
     IconData.map((icon, index) => {
     return (
@@ -28,7 +29,7 @@ const Socials = () => {
     })
   }
       </div>
-      </div>
+     
       </div>
    
   )

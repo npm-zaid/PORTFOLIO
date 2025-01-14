@@ -29,7 +29,7 @@ const Recog = () => {
   return (
     <div ref={containerRef} className="bg-[#111] text-[#eee] py-10 px-6 md:px-12 lg:px-20">
      
-      <h1 className='text-4xl lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'> Recognition & Awards
+      <h1 className='text-4xl lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'> Recognition
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
       </h1>
 

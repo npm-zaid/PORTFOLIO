@@ -8,7 +8,7 @@ const Info = () => {
     useEffect(()=>{
 
         gsap.to(".page2 h1 span",{
-            color:"#d1d5db",
+            color:"black",
             z:-600,
             duration:1,
             stagger:1,
@@ -25,7 +25,7 @@ const Info = () => {
     },[])
 
   return (
-    <div  className="class  bg-zinc-800 h-screen flex justify-center items-center page2 flex-col gap-8 sm:text-xl text-sm px-10 text-zinc-700">
+    <div  className="class bg-[#FFDC00]  h-screen flex justify-center items-center page2 flex-col gap-8 sm:text-lg text-sm px-10 text-black/20">
     <h1>
         {"Greetings! I'm an enthusiastic Full Stack Developer who thrives on crafting vibrant and interactive web applications.".split('').map((item)=><span>{item}</span>)}
         </h1>

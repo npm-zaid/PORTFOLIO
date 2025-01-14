@@ -21,7 +21,7 @@ const Home = () => {
       <Info2 />
       <Projects />
 
-      <Eyes />
+      
       <Circular/>
       <ContactInfo />
 

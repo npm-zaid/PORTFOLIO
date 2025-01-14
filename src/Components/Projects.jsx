@@ -7,7 +7,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Projects() {
 
-    const projects = ['E-commerce',"Quiz game",'Google gemini','Admin Dashboard','portfolio']
+    const projects = [
+        {name: 'google gemini',
+            link: 'https://github.com'
+            },
+        {name: 'e-commerce',
+        link: 'https://clothix-sand.vercel.app'
+        },
+
+        {name: 'quiz game',
+            link: 'https://npm-zaid.github.io/QUIZ/'
+            },
+            {name: 'admin dashboard',
+                link: 'https://clothix-admin-eight.vercel.app'
+                },
+              
+                    {name: 'Portfolio',
+                        link: 'https://github.com'
+                        },
+
+    ]
 
     const transform = [
         [
@@ -95,13 +114,17 @@ function Projects() {
             </div>
 
             {projects.map((item, index) => (
-                <div key={index} className="absolute box left-full z-50 drop-shadow-xl w-64 h-96 overflow-hidden rounded-xl bg-[#3d3c3d]">
+                
+                <div key={index} className="  absolute box left-full z-50 drop-shadow-xl w-64 h-96 overflow-hidden rounded-xl bg-[#3d3c3d]">
+                    <a href={item.link}>
                     <div className="absolute flex items-center justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132]">
-                       <span className='text-center'>{item}</span>
-                        <span className='absolute top-3 right-5 text-zinc-600/50 text-[3vw]'>0{index+1}</span>
+                       <span className='text-center'>{item.name}</span>
+                        <span className='absolute top-3 right-5 text-zinc-600/50 sm:text-[3vw] text-[10vw]'>0{index+1}</span>
                     </div>
+                    </a>
                     <div className="absolute w-56 h-48 bg-white blur-[50px] -left-1/2 -top-1/2" />
                 </div>
+              
             ))}
         </div>
     );

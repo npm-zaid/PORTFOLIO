@@ -1,6 +1,6 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
-
+import video from '../Assets/nexbot-robot-character-concept.mp4'
 
 
 
@@ -28,13 +28,13 @@ function Hero() {
 
      </div>
 
-<div className='absolute w-full  sm:h-screen h-[70vh]  bottom-0 '>
+<div className='absolute  w-full  sm:h-screen h-[70vh]  bottom-0 '>
 
 
-         <Spline  scene="https://prod.spline.design/IYaVUMfTeAozRgsp/scene.splinecode" cache />
   
 <div className='h-12 w-40  bg-gradient-to-r sm:from-[#222225]  sm:via-[#1D1D21]  sm:to-[#19191C]  absolute bottom-5 right-0'></div>
 </div>
+
 
 
   <div className='h-[8vh] w-full bg-gradient-to-b from-transparent  to-zinc-800 absolute bottom-0 left-0'></div>
