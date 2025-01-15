@@ -22,8 +22,8 @@ const Svg = () => {
       
 
   return (
-    <div className="class h-screen  bg-zinc-900 ">
-    <svg className="w-full h-screen  " viewBox="0 0 250 90">
+    <div className="class sm:h-screen h-[50vh]  bg-zinc-900 ">
+    <svg className="w-full h-full  " viewBox="0 0 250 90">
         <path
           id="curve"
           fill="none"

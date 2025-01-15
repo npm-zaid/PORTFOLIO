@@ -67,10 +67,10 @@ const Edu = () => {
             key={index}
             className=" transform -translate-y-10 " // Initial state for animation
           >
-            <h3 className="text-sm sm:leading-8 leading-6 md:text-[1.8vw] font-semibold mb-2 text-white ">
+            <h3 className="text-sm sm:leading-8 leading-6  md:text-[1.8vw] font-semibold mb-2 text-white ">
               {edu.degree} /{edu.institution}
             </h3>
-            <p className="text-gray-400 mb-5 sm:text-[1vw] text-[1.8vw]">{edu.dates}</p>
+            <p className="text-gray-400 mb-5 sm:text-[1vw] text-[2vw]">{edu.dates}</p>
          
           </div>
         ))}

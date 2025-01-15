@@ -137,20 +137,8 @@ body{
   position: absolute;
 }
 
-.main-container {
-  min-height: 110vh;
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  -webkit-align-items: center;
-  height: 560px;
- 
-}
 
-.main {
-  margin: 0px auto;
-  position: relative;
-}
+
 
 .big-circle {
  
@@ -169,8 +157,7 @@ body{
 }
 
 .icon-block {
-  width: 80px;
-  height: 80px;
+ 
   position: absolute;
   border-radius: 50%;
   display: flex;
@@ -183,7 +170,6 @@ background-color:#2c2b2b;
 }
 
 .icon-block img {
-  width: 50px;
   animation: Rotate-reverse 20s linear infinite;
   -webkit-animation: Rotate-reverse 20s linear infinite;
 }
@@ -346,3 +332,5 @@ background-color:#2c2b2b;
 
    
 }
+
+

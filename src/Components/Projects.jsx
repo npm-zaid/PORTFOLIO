@@ -107,6 +107,9 @@ function Projects() {
         });
     }, []); // Empty dependency array ensures this runs only once
 
+
+
+    
     return (
         <div className='trigger h-screen bg-zinc-900 flex gap-3 justify-center items-center relative overflow-hidden'>
             <div className='absolute top-0 left-0 w-[250vw] h-full flex items-center mover text-zinc-700/40'>
@@ -115,7 +118,7 @@ function Projects() {
 
             {projects.map((item, index) => (
                 
-                <div key={index} className="  absolute box left-full z-50 drop-shadow-xl w-64 h-96 overflow-hidden rounded-xl bg-[#3d3c3d]">
+                <div key={index} className=" absolute box left-full z-50 drop-shadow-xl w-64 h-96 overflow-hidden rounded-xl bg-[#3d3c3d]">
                     <a href={item.link}>
                     <div className="absolute flex items-center justify-center text-white z-[1] opacity-90 rounded-xl inset-0.5 bg-[#323132]">
                        <span className='text-center'>{item.name}</span>

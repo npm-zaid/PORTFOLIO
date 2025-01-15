@@ -14,7 +14,7 @@ import UniqueCard from '../Components/UniqueCard'
 
 const About = () => {
   return (
-  <div className='sm:p-[3vw] p-[5vw]'>
+  <div className='sm:p-[3vw] p-[4vw]'>
   
   <Eyes/>
   <Info3/>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react';
+import gsap from 'gsap';
 import pic1 from '../Assets/html_1051277.png'
 import pic2 from '../Assets/css-3_732190.png'
 import pic3 from '../Assets/js_5968292.png'
@@ -11,38 +12,53 @@ import pic9 from '../Assets/tailwind-css-icon.png'
 import pic10 from '../Assets/gsap.png'
 import pic11 from '../Assets/Threejs-logo.png'
 const Circular = () => {
+
+  useEffect(() => {
+    gsap.from(".section-2", {
+      scale: 0.90,
+      duration: 0.4,
+      scrollTrigger: {
+        trigger: ".section-2",
+        start: "top 70%",
+        end: "60% bottom",
+        scrub: true,
+      },
+    });
+  }, []); // Empty dependency array ensures this runs only once on mount
+
+
   return (
-    <section class="main-container bg-[#FFDC00] rounded-b-2xl">
-    <div class="main">
-      <div className="big-circle sm:h-[600px] h-[400px] sm:w-[600px] w-[400px]">
-        <div class="icon-block">
-          <img src={pic1} alt="web design icon" />
+    <section className="section-2 sm:h-[110vh] h-[80vh] flex justify-center items-center main-container bg-[#FFDC00] rounded-xl">
+    <div className="main relative">
+      <div className="big-circle sm:h-[95vh] h-[95vw] sm:w-[95vh] w-[95vw]">
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px] ">
+          <img className='w-[70%]' src={pic1}  />
         </div>
-        <div class="icon-block">
-          <img src={pic2} alt="game design icon" />
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic2}  />
         </div>
-        <div class="icon-block">
-          <img src={pic10} alt="game dev icon" />
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic10} />
         </div>
-        <div class="icon-block">
-          <img src={pic4}lt="ui-ux icon" />
-        </div>
-      </div>
-      <div class="circle">
-        <div class="icon-block">
-          <img src={pic5}alt="app icon" />
-        </div>
-        <div class="icon-block">
-          <img src={pic6} alt="blockchain icon" />
-        </div>
-        <div class="icon-block">
-          <img src={pic7}t="ar-vr icon" />
-        </div>
-        <div class="icon-block">
-          <img src={pic8} alt="artificial intelligence icon" />
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic4} />
         </div>
       </div>
-      <div class="center-logo  sm:text-[2vw] text-[6vw] font-bold">
+      <div className="circle">
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic5} />
+        </div>
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic6} />
+        </div>
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic7}/>
+        </div>
+        <div className="icon-block sm:h-[80px] h-[50px] sm:w-[80px] w-[50px]">
+          <img className='w-[70%]' src={pic8}  />
+        </div>
+      </div>
+      <div className="center-logo  sm:text-[2.3vw] text-[5.5vw] font-bold">
        techstack
       </div>
     </div>

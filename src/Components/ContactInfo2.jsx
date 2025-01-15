@@ -46,7 +46,7 @@ const ContactInfo2 = () => {
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
       </h1>
 
-        <div className=" sm:text-[.9vw]  text-[3vw] grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className=" sm:text-[1.2vw]  text-[3.3vw] grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
             <p className="mb-4 leading-6 ">
               Looking to start a project or you need consultation? Feel free to
@@ -56,7 +56,7 @@ const ContactInfo2 = () => {
 
             <div className='flex gap-3 items-center group cursor-pointer'>
 
-          <div className="group-hover:animate-bounce flex items-center justify-center">
+          <div className="animate-bounce flex items-center justify-center">
             <i className="text-xl ri-map-pin-line text-[#FFDC00]" />
          </div>
          <p className="group-hover:translate-x-2 transition-all duration-400">Agra , india</p>

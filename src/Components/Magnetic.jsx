@@ -41,7 +41,7 @@ function Magnetic({ icon }) {
 
   return (
     
-      <div ref={cursorRef} className=" h-24 w-24 rounded-full bg-[#FFDC00] flex items-center justify-center">
+      <div ref={cursorRef} className=" h-20 sm:h-24 w-20 sm:w-24 rounded-full bg-[#FFDC00] flex items-center justify-center">
         <i className={`${icon} sm:text-[4vw] text-[12vw] text-black`}></i>
         </div>
    

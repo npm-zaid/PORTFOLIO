@@ -5,7 +5,7 @@ import Socials from '../Components/Socials'
 
 const Contact = () => {
   return (
-    <div className='bg-[#111111] px-[5vw]'>
+    <div className='bg-[#111111] px-[4vw]'>
   <ContactInfo2/>
   <Socials/>
       
