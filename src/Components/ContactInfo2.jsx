@@ -42,11 +42,11 @@ const ContactInfo2 = () => {
   return (
     <div className="contact-container  text-white h-screen flex flex-col justify-center">
       
-      <h1 className='text-[8vw] lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'>CONTACT
+      <h1 className='text-[8vw]  lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'>CONTACT
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
       </h1>
 
-        <div className=" sm:text-[.9vw] text-[3vw] grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className=" sm:text-[.9vw]  text-[3vw] grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
             <p className="mb-4 leading-6 ">
               Looking to start a project or you need consultation? Feel free to

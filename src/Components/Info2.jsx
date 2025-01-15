@@ -37,18 +37,19 @@ const Info2 = () => {
   }, []);
 
   const textLines = [
-    "Greetings! I'm an enthusiastic Full Stack Developer who thrives on crafting vibrant and interactive web applications.",
-    "My expertise spans both front-end and back-end technologies, allowing me to weave together seamless user experiences that captivate and engage.",
-    "I've dabbled in a variety of frameworks and libraries, such as Angular and Vue.js, which empowers me to tackle diverse project challenges with creativity and flair.",
-    "I'm also proficient in harnessing the power of RESTful APIs and GraphQL, making data retrieval and manipulation not just efficient, but also elegant.",
+    "I am a full stack developer with a passion for building dynamic and responsive web applications with a strong foundation in both front-end and back-end technologies.",
+    "I have experience working with various frameworks and libraries including React , Redux , Gsap and many more for Creating interactive front-end applications.",
+   "I'm also proficient in nodejs , express  and Mongodb for robust backend development. ",
+    "additionally,  I am well versed in version control system especially git and Github for collaborative development.",
+    "My goal is to continously learn and improve my skills while contributing to meaningful projects. "
   ];
 
   return (
-    <div className="bg-zinc-900 h-screen page3 flex justify-center items-center flex-col gap-8 sm:text-xl text-sm px-8  text-zinc-300">
+    <div className=" min-h-screen page3 flex justify-center items-center flex-col gap-10 sm:text-xl text-sm sm:px-10 px-5 text-zinc-300">
       {textLines.map((line, index) => (
-        <h1 key={index} style={{ perspective: '1000px', whiteSpace: 'pre-wrap' }}> {/* Add whiteSpace */}
+        <h1 key={index} className='text-start' style={{ perspective: '1000px', whiteSpace: 'pre-wrap' }}> {/* Add whiteSpace */}
           {line.split('').map((char, charIndex) => (
-            <span key={charIndex} className="inline-block">
+            <span key={charIndex} className="inline-block sm:leading-10 leading-8">
               {char}
             </span>
           ))}

@@ -56,8 +56,8 @@ const Eyes = () => {
   }, []); // Empty dependency array is correct here
 
   return (
-    <div className='section-2 flex items-center eye-wrapper w-full h-[80vh] overflow-hidden bg-[#FFDC00] rounded-t-2xl py-[5vw] '>
-      <div className=' w-full flex items-center justify-center lg:mt-0 mt-14 '>
+    <div className='section-2 flex items-center eye-wrapper w-full h-[80vh] overflow-hidden bg-[#FFDC00] rounded-t-2xl '>
+      <div className=' w-full flex items-center justify-center lg:mt-0'>
         <div className='flex lg:gap-14 gap-7'>
           <div className='eyeball lg:h-[14vw] lg:w-[14vw] h-[22vh] w-[22vh] bg-slate-100 rounded-full flex items-center justify-center shadow-black shadow-2xl '>
             <div ref={eyeLeft} className='bg-black w-2/3 h-2/3 rounded-full flex items-center justify-center'>

@@ -27,9 +27,9 @@ const Recog = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="bg-[#111] text-[#eee] py-10 px-6 md:px-12 lg:px-20">
+    <div ref={containerRef} className="sm:px-8 my-20 text-white">
      
-      <h1 className='text-4xl lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'> Recognition
+      <h1 className='text-[7.5vw] lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'> Recognition
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
       </h1>
 
@@ -54,7 +54,7 @@ const Recog = () => {
             key={index}
             className="flex flex-col items-start justify-center space-y-2 opacity-0 transform scale-80" // Initial state for animation
           >
-            <h3 className="text-xl md:text-2xl font-semibold mb-1">
+            <h3 className=" text-xl md:text-2xl font-semibold mb-1">
               {item.title}
             </h3>
             <p className="text-gray-400">{item.awarder} - {item.date}</p>

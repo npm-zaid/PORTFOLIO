@@ -16,12 +16,12 @@ const ContactInfo = () => {
 
   return (
     <div className='contact h-[100vh] w-full bg-zinc-800  flex flex-col gap-6 items-center justify-center text-gray-400'>
-<h1 className='relative text-gray-400 sm:text-[2vw] text-[5vw] leading-[2.5em] text-center'>lets work together
+<h1 className='relative text-gray-400 sm:text-[2vw] text-[5vw] text-center'>lets work together
 <span className='absolute -bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-zinc-500 to-transparent '></span>
       </h1>
 
-      <p className='sm:text-[3vw] text-[3vw] text-wrap bg-gradient-to-r from-[#111111] via-gray-400 to-transparent  sm:leading-[3rem] leading-[4rem]  animate-gradient bg-[length:200%] bg-clip-text text-transparent'>zaidrehman711@gmail.com</p>
-      <p className='text-zinc-400 sm:text-[1vw] text-[2vw]'>Contact me at 000-123-4567</p>
+      <p className='sm:text-[3vw] text-[3.7vw] font-bold text-wrap bg-gradient-to-r from-[#111111] via-gray-400 to-transparent  sm:leading-[3rem] leading-[4rem]  animate-gradient bg-[length:200%] bg-clip-text text-transparent'>zaidcodes.404@gmail.com</p>
+      <p className='text-zinc-400 sm:text-[1vw] text-[2.3vw]'>Contact me at 000-123-4567</p>
 
 <div className='flex flex-wrap gap-6 items-center justify-center sm:w-full w-[70%]'>
 {

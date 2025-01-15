@@ -14,14 +14,14 @@ import UniqueCard from '../Components/UniqueCard'
 
 const About = () => {
   return (
-  <div className='px-[3vw]'>
-  <UniqueCard/>
+  <div className='sm:p-[3vw] p-[5vw]'>
+  
   <Eyes/>
   <Info3/>
-  <Info/>
-  <Circular/>
+  <UniqueCard/>
  <Edu/>
  <Recog/>
+ 
   </div>
   )
 }

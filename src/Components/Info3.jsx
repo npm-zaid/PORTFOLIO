@@ -20,9 +20,10 @@ const Info3 = () => {
             stagger: 0.04,
             scrollTrigger: {
                 trigger: '.page4',
-                start: "top bottom",
-                end: "bottom top",
-                scrub: true
+                start: "top 80%",
+                end: "bottom 40%",
+                scrub: true,
+                
             }
         }
     );
@@ -33,16 +34,17 @@ const Info3 = () => {
   }, []);
 
   const textLines = [
-    "Greetings! I'm an enthusiastic Full Stack Developer who thrives on crafting vibrant and interactive web applications.",
-    "My expertise spans both front-end and back-end technologies, allowing me to weave together seamless user experiences that captivate and engage.",
-    "I've dabbled in a variety of frameworks and libraries, such as Angular and Vue.js, which empowers me to tackle diverse project challenges with creativity and flair.",
-    "I'm also proficient in harnessing the power of RESTful APIs and GraphQL, making data retrieval and manipulation not just efficient, but also elegant.",
+   'As of full-stack developer I possess a comprehensive skill set that encompasses both front-end and back-end technologies.',
+   'my primary expertise lies in react , a powerful javascript library that enables the creation of dynamic user interface.',
+   'I also have substantial experience with Mongodb , a Nosql database that allows for flexible data storage and Retrieval.',
+   'i aslo know express js , a web application framework for Nodejs that simplifies the development of server side application.',
+   'additionally I am a proficient in node js , which enables me to build scalable network applications using javascript on the server side.'
   ];
 
   return (
-    <div className="bg-zinc-900 h-screen page4 flex justify-center items-center flex-col gap-8 sm:text-xl text-sm px-8  text-zinc-300">
+    <div className="bg-[#FFDC00] min-h-screen page4 flex justify-center items-center flex-col gap-8 sm:text-lg text-sm pb-12 sm:px-10 px-6 text-black rounded-b-xl">
       {textLines.map((line, index) => (
-        <h1 key={index} style={{ perspective: '1000px', whiteSpace: 'pre-wrap' }}> {/* Add whiteSpace */}
+        <h1 key={index} className='leading-6  sm:leading-8' style={{ perspective: '1000px', whiteSpace: 'pre-wrap' }}> 
           {line.split('').map((char, charIndex) => (
             <span key={charIndex} className="inline-block">
               {char}

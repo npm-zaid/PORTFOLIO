@@ -14,7 +14,7 @@ const Circular = () => {
   return (
     <section class="main-container bg-[#FFDC00] rounded-b-2xl">
     <div class="main">
-      <div class="big-circle">
+      <div className="big-circle sm:h-[600px] h-[400px] sm:w-[600px] w-[400px]">
         <div class="icon-block">
           <img src={pic1} alt="web design icon" />
         </div>
@@ -42,7 +42,7 @@ const Circular = () => {
           <img src={pic8} alt="artificial intelligence icon" />
         </div>
       </div>
-      <div class="center-logo sm:text-[2vw] text-[6vw] font-bold">
+      <div class="center-logo  sm:text-[2vw] text-[6vw] font-bold">
        techstack
       </div>
     </div>

@@ -34,44 +34,44 @@ const Edu = () => {
   return (
     <div
       ref={educationContainerRef}
-      className="bg-[#111] text-[#eee] py-10 px-6 md:px-12 lg:px-20"
+      className="sm:px-8"
     >
-       <h1 className='text-4xl lg:text-5xl font-bold mb-16 text-[#FFDC00] relative'>education
+       <h1 className='text-[8vw] lg:text-5xl font-bold mb-24 text-[#FFDC00] relative'>education
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
       </h1>
 
-      <div className="space-y-8">
+      <div className="space-y-12">
         {[
           {
-            degree: 'Master of Science in Computer Science',
-            institution: 'University of Example',
-            dates: 'Sept. 2020 - May 2022',
+            degree: 'bachelor of computer application',
+            institution: 'sharda university , Agra',
+            dates: 'Sept. 2021 - May 2024',
             details:
-              'Specialized in Artificial Intelligence. Relevant coursework included Machine Learning, Deep Learning, and Natural Language Processing. Graduated with honors.',
+             "Obtained a Bachelor of Computer Application degree, focusing on software development and database management. Relevant coursework included programming, data structures, and computer networks. Graduated with honors.",
           },
           {
-            degree: 'Bachelor of Science in Information Technology',
-            institution: 'Example College',
-            dates: 'Sept. 2016 - May 2020',
+            degree: 'inter',
+            institution: 'all saints school',
+            dates: 'Sept. 2018 - May 2019',
             details: 'Focused on Web Development and Database Management.',
           },
           {
-            degree: 'High School Diploma',
-            institution: 'Example High School',
-            dates: 'Sept. 2012 - May 2016',
+            degree: 'High School',
+            institution: 'all saints school',
+            dates: 'Sept. 2016 - May 2017',
             details: 'General Studies.',
           },
         ].map((edu, index) => (
           <div
             ref={(el) => (educationEntriesRef.current[index] = el)}
             key={index}
-            className=" transform -translate-y-10" // Initial state for animation
+            className=" transform -translate-y-10 " // Initial state for animation
           >
-            <h3 className="text-xl md:text-[1.3vw] font-semibold mb-2 bg-gradient-to-b from-[#FFDC00] to-transparent   animate-gradient  bg-clip-text text-transparent">
-              {edu.degree} @{edu.institution}
+            <h3 className="text-sm sm:leading-8 leading-6 md:text-[1.8vw] font-semibold mb-2 text-white ">
+              {edu.degree} /{edu.institution}
             </h3>
-            <p className="text-gray-400 mb-1 text-[.7vw]">{edu.dates}</p>
-            <p className="leading-relaxed text-[.8vw]">{edu.details}</p>
+            <p className="text-gray-400 mb-5 sm:text-[1vw] text-[1.8vw]">{edu.dates}</p>
+         
           </div>
         ))}
       </div>

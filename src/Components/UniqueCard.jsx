@@ -2,7 +2,7 @@ import React from "react"
 
 const UniqueCard=()=>{
  return(
-<div className="min-h-screen py-8">
+<div className="min-h-screen  my-20 sm:px-8">
     
 <h1 className='text-[8vw] lg:text-5xl font-bold text-[#FFDC00] relative mb-10'>skills
       <span className='absolute -bottom-4 left-0 w-full h-0.5 bg-gradient-to-r from-[#FFDC00] to-transparent '></span>
